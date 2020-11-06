@@ -1,0 +1,40 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <title>Lab 7 Layout and Map</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+<!-- <link rel="stylesheet" href="style.css" /> -->
+<link rel="airports" href="airports.json" />
+<script defer src="script.js"></script>
+<script type = "text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://unpkg.com/topojson@3"></script>
+
+</head>
+
+<body>
+
+    <h1>
+        Airport Connections
+    </h1>
+
+    <div class = "container">
+
+        <div class = "chart">
+            <!-- <svg class = "chart">
+            </svg>  -->
+        </div>
+
+        <form action="/action_page.php">
+            <!-- <p>Please select your gender:</p> -->
+            <input type="radio" id="force" name="option1" value="force">
+            <label for="force">Force</label><br>
+            <input type="radio" id="map" name="option1" value="map">
+            <label for="map">Map</label><br>
+        </form>
+    </div>
+
+</body>
+
+
+</html>
